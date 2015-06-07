@@ -2,7 +2,7 @@
 
 namespace JoinOptions;
 
-use pocketmine\Player
+use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\utils\Config;
