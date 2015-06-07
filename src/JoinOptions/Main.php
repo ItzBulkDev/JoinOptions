@@ -36,7 +36,7 @@ public function onDisable(){
 	  $p = $event->getPlayer()->getName();
 	    if($health == true){
 	      $p->setHealth($health);
-	      $p->sendPopUp("You Have Been Healed!");
+	      $p->sendPopup("You Have Been Healed!");
 	      	}
 	        	if($msgcheck == true){
 	          	$p->sendPopup($msg);
