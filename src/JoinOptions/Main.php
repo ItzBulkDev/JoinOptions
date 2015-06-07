@@ -33,13 +33,13 @@ public function onDisable(){
 	  $health = $cfg->get("Set-Health-Amount");
 	  $msg = $cfg->get("Join-PopUp-Message");
 	  $msgcheck = $cfg->get("Enable-PopUp-Messages");
-	  $p = $event->getPlayer()->getName();
+	  $player = $event->getPlayer();
 	    if($health == true){
-	      $p->setHealth($health);
-	      $p->sendPopup("You Have Been Healed!");
+	      $player->setHealth($health);
+	      $player->sendPopup("You Have Been Healed!");
 	      	}
 	        	if($msgcheck == true){
-	          	$p->sendPopup($msg);
+	          	$player->sendPopup($msg);
 	          
 }
 	}
