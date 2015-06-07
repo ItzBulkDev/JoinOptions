@@ -13,6 +13,8 @@ use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase implements Listener {
+	
+public $cfg;
 
 public function onEnable(){
 	$this->saveDefaultConfig();
