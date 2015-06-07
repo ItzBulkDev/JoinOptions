@@ -35,9 +35,6 @@ public function onDisable(){
 	      	}
 	        	if($msgcheck == true){
 	          	$p->sendPopup($msg);
-	          		}elseif{
-	          		return false;
-	          		}
 	          
 }
 	          
