@@ -6,6 +6,9 @@ use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\utils\Config;
+use pocketmine\Server;
+use pocketmine\plugin\PluginManager;
+use pocketmine\plugin\Plugin;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\utils\TextFormat;
 
