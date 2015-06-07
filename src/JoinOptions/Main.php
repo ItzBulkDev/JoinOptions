@@ -14,12 +14,12 @@ class Main extends PluginBase implements Listener {
 public function onEnable(){
 	$this->saveDefaultConfig();
 	$this->getServer()->getPluginManager()->registerEvents($this,$this);
-	$this->getLogger()->info(TextFormat::ORANGE"[JoinOptions] I've been enabled!");
-	$this->getLogger()->info(TextFormat::ORANGE"[JoinOptions] I was created by ItzBulkDev");
+	$this->getLogger()->info(TextFormat::GREEN."[JoinOptions] I've been §aenabled!");
+	$this->getLogger()->info(TextFormat::GREEN."[JoinOptions] I was created by ItzBulkDev");
 	}
 public function onDisable(){
 	$this->saveDefaultConfig();
-	$this->getLogger()->info(TextFormat::RED"[JoinOptions] I've been disabled!");	
+	$this->getLogger()->info(TextFormat::RED."[JoinOptions] I've been disabled!");	
 	}
 	
 	public function onJoin(PlayerJoinEvent $event) {
