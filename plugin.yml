@@ -1,0 +1,8 @@
+---
+name: JoinOptions
+version: 1.0
+api: 1.12.0
+author: ItzBulkDev
+main: ItzBulkDev\Main
+description: Allows players to receive things based on config file!
+website: https://github.com/ItzBulkDev/JoinOptions
