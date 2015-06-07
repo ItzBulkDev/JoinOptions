@@ -37,5 +37,6 @@ public function onDisable(){
 	          	$p->sendPopup($msg);
 	          
 }
-	          
+	}
+}
 	    
