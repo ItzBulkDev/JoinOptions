@@ -11,5 +11,4 @@ Set-Health-Amount: 20
 Enable-PopUp-Messages: true
 
 //Send popup to player on join
-// $p = player name
-Join-PopUp-Message: "Welcome to the server $p"
+Join-PopUp-Message: "Welcome to the server"
