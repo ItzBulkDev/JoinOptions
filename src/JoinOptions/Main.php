@@ -32,8 +32,6 @@ public function onDisable(){
 	    if($health == true){
 	      $p->setHealth($health);
 	      $p->sendPopUp("You Have Been Healed!");
-	    	}elseif{
-	      	return false;
 	      	}
 	        	if($msgcheck == true){
 	          	$p->sendPopup($msg);
