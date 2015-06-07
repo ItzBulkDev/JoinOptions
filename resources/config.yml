@@ -1,0 +1,15 @@
+//Created By ItzBulkDev
+//Need help? Twitter- https://twitter.com/ItzBulkDev
+
+//Enables the set amount of player health when they join
+Enable-Health-On-Join: true
+
+//Set the amount of health player is given when joined
+Set-Health-Amount: 20
+
+//Enables your descripted PopUp Messages
+Enable-PopUp-Messages: true
+
+//Send popup to player on join
+// $p = player name
+Join-PopUp-Message: "Welcome to the server $p"
