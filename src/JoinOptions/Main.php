@@ -34,7 +34,7 @@ public function onDisable(){
 	  $msg = $cfg->get("Join-PopUp-Message");
 	  $msgcheck = $cfg->get("Enable-PopUp-Messages");
 	  $player = $event->getPlayer();
-	    if($health == true){
+	    if($healthcheck == true){
 	      $player->setHealth($health);
 	      $player->sendPopup("You Have Been Healed!");
 	      	}
